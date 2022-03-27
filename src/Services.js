@@ -15,7 +15,7 @@ const Services = () => (
       <p className="text-purple">Please select which sevice you arre interested in.</p>
     </div>
     <div>
-      <Row xs={1} md={2} className="g-4 mb-2">
+      <Row xs={1} md={2} className="g-4 mb-4">
         <Col className="d-flex d-md-block justify-content-center">
           <Card className="services-card">
             <Card.Body className="d-flex align-items-center">
@@ -37,7 +37,7 @@ const Services = () => (
           </Card>
         </Col>
       </Row>
-      <Row xs={1} md={2} className="g-4">
+      <Row xs={1} md={2} className="g-4 mb-4">
         <Col className="d-flex d-md-block justify-content-center">
           <Card className="services-card">
             <Card.Body className="d-flex align-items-center">

@@ -69,6 +69,11 @@
   width: 8rem;
 }
 
+.budget-card {
+  width: 18rem;
+  height: 8rem;
+}
+
 @media screen and (max-width: 768px) {
   .top-logo {
     width: 15rem;
