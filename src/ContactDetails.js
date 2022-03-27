@@ -8,7 +8,7 @@ const ContactDetails = () => (
   <>
     <section className="container container-width border py-4">
       <div>
-        <Progress />
+        <Progress first={50} second={0} third={0} />
         <hr />
       </div>
       <div>

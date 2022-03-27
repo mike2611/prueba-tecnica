@@ -9,7 +9,7 @@ const Services = () => (
   <>
     <section className="container container-width border py-4">
       <div>
-        <Progress />
+        <Progress first={100} second={50} third={0} />
         <hr />
       </div>
       <div>

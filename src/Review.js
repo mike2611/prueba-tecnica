@@ -6,7 +6,7 @@ const Review = () => (
   <>
     <section className="container container-width border py-4">
       <div>
-        <Progress />
+        <Progress first={100} second={100} third={100} />
         <hr />
       </div>
       <div className="d-flex flex-column align-items-center">

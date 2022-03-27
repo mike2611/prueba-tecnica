@@ -9,7 +9,7 @@ const Budget = () => (
   <>
     <section className="container container-width border py-4">
       <div>
-        <Progress />
+        <Progress first={100} second={100} third={50} />
         <hr />
       </div>
       <div>
