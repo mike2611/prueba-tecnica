@@ -1,9 +1,13 @@
 import './App.css';
+import TopBar from './TopBar';
+import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div>
-      <h1>Test</h1>
+      <TopBar />
+      <Footer />
     </div>
   );
 }
