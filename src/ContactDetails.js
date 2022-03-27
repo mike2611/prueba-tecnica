@@ -38,7 +38,7 @@ const ContactDetails = () => (
         </Row>
       </Form>
     </section>
-    <NavButtons previous="/services" next="/services" />
+    <NavButtons previous="" next="/services" />
   </>
 
 );
