@@ -1,7 +1,7 @@
 import logo from './assets/logo.png';
 
 const Footer = () => (
-  <section className="d-flex flex-column flex-md-row align-items-center justify-content-around">
+  <section className="d-flex flex-column flex-md-row align-items-center justify-content-around mt-5 border-top">
     <div className="order-1 order-md-0">
       <img src={logo} alt="logo" className="d-none d-md-block footer-logo me-1" />
       <p className="text-muted footer-info mt-3 mt-md-1">Copyright &copy; 2021 BRIX Templates | All Rights Reserved </p>

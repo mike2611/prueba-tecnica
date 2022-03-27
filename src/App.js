@@ -1,7 +1,7 @@
 import './App.css';
 import TopBar from './TopBar';
 import MainText from './MainText';
-import Progress from './Progress';
+import ContactDetails from './ContactDetails';
 import Footer from './Footer';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <TopBar />
       <MainText />
-      <Progress />
+      <ContactDetails />
       <Footer />
     </div>
   );

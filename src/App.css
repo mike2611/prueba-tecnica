@@ -57,9 +57,17 @@
   height: 6px !important;
 }
 
+.container-width {
+  width: 60% !important;
+}
+
 @media screen and (max-width: 768px) {
   .top-logo {
     width: 15rem;
+  }
+
+  .container-width {
+    width: 100% !important;
   }
 }
 
