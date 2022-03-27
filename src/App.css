@@ -1,5 +1,13 @@
 .purple{
-  background-color: rgb(130, 59, 245);
+  background-color: #823bf5;
+}
+
+.title-purple{
+  color: #191a49;
+}
+
+.text-purple{
+  color: #6f6c8f;
 }
 
 .btn-style {
@@ -35,3 +43,23 @@
 .footer-info {
   font-size: 0.6rem;
 }
+
+.progress-nums {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.progress {
+  width: 8%;
+  height: 6px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .top-logo {
+    width: 15rem;
+  }
+}
+

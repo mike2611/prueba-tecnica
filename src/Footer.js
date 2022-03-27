@@ -8,7 +8,7 @@ const Footer = () => (
     </div>
     <div className="d-flex align-items-center justify-content-center order-0 order-md-1 mb-2">
       <input type="name" id="email" className="form-control-sm footer-input" placeholder="Enter your email" required="required" />
-      <btn className="purple footer-btn btn-style px-4 py-2 ms-2" type="button">Subscribe</btn>
+      <button className="purple footer-btn btn-style px-4 py-2 ms-2" type="button">Subscribe</button>
     </div>
   </section>
 );

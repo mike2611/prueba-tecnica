@@ -10,7 +10,7 @@ const TopBar = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto mb-1">
-          <btn className="purple top-btn btn-style px-5 py-3" type="button">Clone now</btn>
+          <button className="purple top-btn btn-style px-5 py-3" type="button">Clone now</button>
         </Nav>
       </Navbar.Collapse>
     </Container>
