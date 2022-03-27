@@ -78,6 +78,16 @@
   width: 55%;
 }
 
+.nav-btn{
+  font-size: 0.8rem;
+}
+
+.nav-back-btn{
+  border: 1px solid #4a3aff;
+  color: #4a3aff;
+  background-color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   .top-logo {
     width: 15rem;
