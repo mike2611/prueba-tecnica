@@ -1,5 +1,5 @@
 .purple{
-  background-color: #823bf5;
+  background-color: #4a3aff;
 }
 
 .title-purple{
@@ -72,6 +72,10 @@
 .budget-card {
   width: 18rem;
   height: 8rem;
+}
+
+.review-width {
+  width: 55%;
 }
 
 @media screen and (max-width: 768px) {
