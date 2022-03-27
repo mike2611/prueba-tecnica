@@ -61,6 +61,14 @@
   width: 60% !important;
 }
 
+.services-card {
+  width: 18rem;
+}
+
+.card-img {
+  width: 8rem;
+}
+
 @media screen and (max-width: 768px) {
   .top-logo {
     width: 15rem;
