@@ -15,20 +15,20 @@ const Progress = ({ first, second, third }) => {
 
   return (
     <div className="d-flex align-items-center justify-content-center">
-      <div className="purple progress-nums">
-        <p className="text-white mx-4">1</p>
+      <div className={(progFirst > 0 ? 'text-white purple progress-nums' : 'text-secondary progress-nums')}>
+        <p className="mx-4">1</p>
       </div>
       <ProgressBar variant="primary" now={progFirst} className="progress mx-2" />
-      <div className="purple progress-nums">
-        <p className="text-white mx-4">2</p>
+      <div className={(progSecond > 0 ? 'text-white purple progress-nums' : 'text-secondary progress-nums')}>
+        <p className="mx-4">2</p>
       </div>
       <ProgressBar variant="primary" now={progSecond} className="progress mx-2" />
-      <div className="purple progress-nums">
-        <p className="text-white mx-4">3</p>
+      <div className={(progThird > 0 ? 'text-white purple progress-nums' : 'text-secondary progress-nums')}>
+        <p className="mx-4">3</p>
       </div>
       <ProgressBar variant="primary" now={progThird} className="progress mx-2" />
-      <div className="purple progress-nums">
-        <p className="text-white mx-4">4</p>
+      <div className={(progThird > 50 ? 'text-white purple progress-nums' : 'text-secondary progress-nums')}>
+        <p className="mx-4">4</p>
       </div>
     </div>
   );
