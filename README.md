@@ -13,9 +13,9 @@
 ## Live version
 
 ## Built With
-ReactJs
-React Router
-Bootstrap
-React-Bootstrap
+- ReactJs
+- React Router
+- Bootstrap
+- React-Bootstrap
 
 
